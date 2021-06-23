@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="film@localhost" uuid="5210b1c1-b8ef-4eb1-b9e9-08d5dea2e709">
+      <database-info product="PostgreSQL" version="13.0" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.5" dbms="POSTGRES" exact-version="13.0" exact-driver-version="42.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <introspection-schemas>@:@|film_db:public</introspection-schemas>
+      <legacy-introspector>true</legacy-introspector>
+    </data-source>
+  </component>
+</project>

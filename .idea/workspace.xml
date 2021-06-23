@@ -1,0 +1,1011 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="filmography:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6cffc581-c2ed-4e5a-b9fc-43103de8c195" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../CRUD/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD/src/main/java/ru/mzuev/spring/config/MySpringMvcDispatcherSerlvetIntitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD/src/main/java/ru/mzuev/spring/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD/src/main/java/ru/mzuev/spring/controllers/PeopleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD/src/main/java/ru/mzuev/spring/dao/PersonDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD/src/main/java/ru/mzuev/spring/dao/PersonMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD/src/main/java/ru/mzuev/spring/models/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD/src/main/java/ru/mzuev/spring/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD/src/main/java/ru/mzuev/spring/utils/HibernateSessionFactoryUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateApp/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateApp/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateApp/src/main/java/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateApp/src/main/java/models/Auto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateApp/src/main/java/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateApp/src/main/java/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateApp/src/main/java/utils/HibernateSessionFactoryUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HibernateApp/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/5210b1c1-b8ef-4eb1-b9e9-08d5dea2e709.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/5210b1c1-b8ef-4eb1-b9e9-08d5dea2e709/storage_v2/_src_/database/film_db.GV0NzQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/5210b1c1-b8ef-4eb1-b9e9-08d5dea2e709/storage_v2/_src_/database/film_db.GV0NzQ/schema/film_schema.vMBOuA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/5210b1c1-b8ef-4eb1-b9e9-08d5dea2e709/storage_v2/_src_/database/film_db.GV0NzQ/schema/pg_toast.33HYYw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/5210b1c1-b8ef-4eb1-b9e9-08d5dea2e709/storage_v2/_src_/database/film_db.GV0NzQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filmography.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inventory/config/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inventory/config/HibernateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inventory/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inventory/controller/InventoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inventory/dao/InventoryDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inventory/dao/InventoryDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inventory/model/InventoryObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inventory/service/InventoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inventory/service/InventoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/editPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/objects.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/filmography.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/inventory/config/AppInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/inventory/config/HibernateConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/inventory/config/WebConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/inventory/controller/InventoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/inventory/dao/InventoryDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/inventory/dao/InventoryDAOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/inventory/model/InventoryObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/inventory/service/InventoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/inventory/service/InventoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/classes/META-INF/filmography.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/classes/inventory/config/AppInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/classes/inventory/config/HibernateConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/classes/inventory/config/WebConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/classes/inventory/controller/InventoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/classes/inventory/dao/InventoryDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/classes/inventory/dao/InventoryDAOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/classes/inventory/model/InventoryObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/classes/inventory/service/InventoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/classes/inventory/service/InventoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/lib/FastInfoset-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/lib/byte-buddy-1.10.22.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/lib/classmate-1.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-5.1.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/lib/hibernate-core-5.5.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/lib/jandex-2.2.3.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.27.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/lib/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/lib/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.4.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/lib/postgresql-42.2.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.2.15.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.2.15.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.2.15.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.2.15.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.2.15.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.2.15.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.3.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-5.3.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.3.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.2.15.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.2.15.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/lib/stax-ex-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/lib/tomcat-dbcp-10.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/lib/tomcat-juli-10.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/lib/txw2-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/pages/editPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/WEB-INF/pages/objects.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/filmography-1.0-SNAPSHOT/res/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L2.1 Authorization/src/main/java/servlets/SignInServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L3.2 ORM/cfg/test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L3.2 ORM/src/main/java/dbService/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L3.2 ORM/src/main/java/dbService/dao/AccountDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L3.2 ORM/src/main/java/dbService/dataSets/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L3.2 ORM/src/main/java/servlets/SignInServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L3.2 ORM/src/main/java/servlets/SignUpServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCApp1/src/main/java/ru/mzuev/springcourse/config/MySpringMvcDispatcherServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCApp1/src/main/java/ru/mzuev/springcourse/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCApp1/src/main/java/ru/mzuev/springcourse/controllers/FirstController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCApp1/src/main/java/ru/mzuev/springcourse/controllers/SecondController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCApp1/src/main/webapp/WEB-INF/views/first/calculator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCApp1/src/main/webapp/WEB-INF/views/first/goodbye.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCApp1/src/main/webapp/WEB-INF/views/first/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCApp1/src/main/webapp/WEB-INF/views/second/exit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC_CRUD/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC_CRUD/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC_CRUD/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myRandom/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myRandom/src/main/java/myRandom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springapp1/src/main/java/ru/mzuev/springcourse/ClassicalMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springapp1/src/main/java/ru/mzuev/springcourse/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springapp1/src/main/java/ru/mzuev/springcourse/Genre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springapp1/src/main/java/ru/mzuev/springcourse/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springapp1/src/main/java/ru/mzuev/springcourse/MusicPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springapp1/src/main/java/ru/mzuev/springcourse/PopMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springapp1/src/main/java/ru/mzuev/springcourse/RockMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springapp1/src/main/java/ru/mzuev/springcourse/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springapp1/src/main/java/ru/mzuev/springcourse/TestSpring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springapp1/src/main/resources/musicPlayer.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L1.1 Simple web server/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../L1.1 Simple web server/src/main/java/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L1.1 Simple web server/src/main/java/servlets/AllRequestsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../L1.1 Simple web server/src/main/java/servlets/AllRequestsServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L2.1 Authorization/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../L2.1 Authorization/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L2.1 Authorization/public_html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../L2.1 Authorization/public_html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L2.1 Authorization/src/main/java/accounts/UserProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../L2.1 Authorization/src/main/java/accounts/UserProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L2.1 Authorization/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../L2.1 Authorization/src/main/java/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L2.1 Authorization/src/main/java/servlets/SessionsServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L2.1 Authorization/src/main/java/servlets/UsersServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../L2.1 Authorization/src/main/java/servlets/SignUpServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L3.1 JDBC/h2db.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/../L3.1 JDBC/h2db.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L3.1 JDBC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../L3.1 JDBC/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L3.1 JDBC/src/main/java/dbService/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../L3.1 JDBC/src/main/java/dbService/DBService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L3.1 JDBC/src/main/java/dbService/executor/Executor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../L3.1 JDBC/src/main/java/dbService/executor/Executor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L3.2 ORM/h2db.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/../L3.2 ORM/h2db.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L3.2 ORM/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../L3.2 ORM/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L3.2 ORM/src/main/java/dbService/DBException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../L3.2 ORM/src/main/java/dbService/DBException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L3.2 ORM/src/main/java/dbService/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../L3.2 ORM/src/main/java/dbService/DBService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L3.2 ORM/src/main/java/dbService/dao/UsersDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../L3.2 ORM/src/main/java/dbService/dao/UsersDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L3.2 ORM/src/main/java/dbService/dataSets/UsersDataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../L3.2 ORM/src/main/java/dbService/dataSets/UsersDataSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L3.2 ORM/src/main/java/dbService/executor/Executor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../L3.2 ORM/src/main/java/dbService/executor/Executor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L3.2 ORM/src/main/java/dbService/executor/ResultHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../L3.2 ORM/src/main/java/dbService/executor/ResultHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L3.2 ORM/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../L3.2 ORM/src/main/java/main/Main.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="inv@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="inv@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="inv@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="film_db: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="inv@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="inventory_db: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="inv@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="inventory_db: database" type="162271b6:PgImplModel$Database" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="inv@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="inventory_db: database" type="162271b6:PgImplModel$Database" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="inv@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="inventory_db: database" type="162271b6:PgImplModel$Database" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="inventory_objects: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="filmography" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/inventory/controller/InventoryController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#738#739#0" expanded="true" />
+                <element signature="e#794#795#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/objects.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="620">
+              <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/res/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/filmography.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/inventory/config/WebConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="19" column="73" selection-start-line="19" selection-start-column="73" selection-end-line="19" selection-end-column="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/inventory/config/HibernateConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="452">
+              <caret line="50" column="55" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/inventory/config/AppInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/inventory/service/InventoryService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/inventory/model/InventoryObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="e#459#460#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
+                <element signature="e#545#546#0" expanded="true" />
+                <element signature="e#584#585#0" expanded="true" />
+                <element signature="e#622#623#0" expanded="true" />
+                <element signature="e#681#682#0" expanded="true" />
+                <element signature="e#735#736#0" expanded="true" />
+                <element signature="e#771#772#0" expanded="true" />
+                <element signature="e#800#801#0" expanded="true" />
+                <element signature="e#844#845#0" expanded="true" />
+                <element signature="e#880#881#0" expanded="true" />
+                <element signature="e#909#910#0" expanded="true" />
+                <element signature="e#943#944#0" expanded="true" />
+                <element signature="e#997#998#0" expanded="true" />
+                <element signature="e#1043#1044#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/controller/FilmController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/films.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/editPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/filmography/dao/FilmDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/filmography/service/FilmService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/filmography/controller/FilmController.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/74c6b531-8a1d-48d3-9fc1-f25e9b5c0134/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/9cf2a7fa-04f9-4d5b-96b6-fc36599417a7/console.sql" />
+        <option value="9cf2a7fa-04f9-4d5b-96b6-fc36599417a7/database/test/schema/public/sequence/films_id_seq" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c8509fbf-336c-4636-9d18-daaf68e5e722/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/filmography/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/filmography/config/HibernateConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/filmography/service/FilmServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/filmography/dao/FilmDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/filmography/model/Film.java" />
+        <option value="$PROJECT_DIR$/src/main/java/filmography/config/AppInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/filmography/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/films.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/editPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/res/style.css" />
+        <option value="$PROJECT_DIR$/src/main/java/inventory/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/inventory/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/inventory/controller/FilmController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/inventory/controller/InvController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/inventory/dao/DAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/inventory/dao/FilmDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/inventory/dao/InventoryDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/inventory/service/InventoryService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/inventory/dao/InventoryDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/inventory/service/InventoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/inventory/controller/InventoryController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/inventory/model/InventoryObject.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5210b1c1-b8ef-4eb1-b9e9-08d5dea2e709/console_1.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/inventory/dao/InventoryDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/inventory/service/InventoryService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/inventory/service/InventoryServiceImpl.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5210b1c1-b8ef-4eb1-b9e9-08d5dea2e709/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/objects.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/inventory/controller/InventoryController.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/editPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/inventory/model/InventoryObject.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/res/style.css" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="filmography" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="840" />
+    <option name="height" value="600" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="filmography" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="filmography" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="filmography" type="58d84e3e:PackageViewProjectNode" />
+              <item name="filmography" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.13476562" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Other\Git\stepic_java_webserver\filmography\src\main\webapp\WEB-INF" />
+      <recent name="D:\Other\Git\stepic_java_webserver\filmography\src\main\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.41">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="filmography.Main" />
+      <module name="inventory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inventory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.41" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.41" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="filmography:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_filmography" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51933" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="filmography:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringBeansView">
+    <option name="showFilesets" value="false" />
+    <option name="showImplicitBeans" value="false" />
+    <option name="showInfrastructureBeans" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6cffc581-c2ed-4e5a-b9fc-43103de8c195" name="Default Changelist" comment="" />
+      <created>1621872776510</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621872776510</updated>
+      <workItem from="1621872792220" duration="26542000" />
+      <workItem from="1623183325916" duration="5133000" />
+      <workItem from="1623248111577" duration="17615000" />
+      <workItem from="1624384246580" duration="17373000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="66663000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5480427" visible="true" weight="0.21695095" />
+      <window_info id="Structure" order="1" sideWeight="0.39055794" side_tool="true" weight="0.1818792" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.38626608" side_tool="true" weight="0.1818792" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Web" order="7" sideWeight="0.38626608" side_tool="true" weight="0.1818792" />
+      <window_info id="Persistence" order="8" sideWeight="0.4519573" side_tool="true" weight="0.1738255" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1989011" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4986577" weight="0.32747254" />
+      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.49798658" weight="0.32756132" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32967034" />
+      <window_info anchor="bottom" id="Database Console" order="9" sideWeight="0.51073825" weight="0.22087912" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4986577" weight="0.32756132" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5013423" side_tool="true" weight="0.32756132" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.23736264" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" sideWeight="0.4986577" weight="0.32756132" />
+      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="16" sideWeight="0.49932885" weight="0.32900432" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.18322147" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.16204691" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.15.RELEASE/spring-webmvc-5.2.15.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1215">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/74c6b531-8a1d-48d3-9fc1-f25e9b5c0134/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://9cf2a7fa-04f9-4d5b-96b6-fc36599417a7/database/test/schema/public/sequence/films_id_seq" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9cf2a7fa-04f9-4d5b-96b6-fc36599417a7/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c8509fbf-336c-4636-9d18-daaf68e5e722/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/filmography/config/AppInitializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1041#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/filmography/Main.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.15.RELEASE/spring-webmvc-5.2.15.RELEASE.jar!/org/springframework/web/servlet/ModelAndView.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5210b1c1-b8ef-4eb1-b9e9-08d5dea2e709/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f5651e15-e562-4afb-be80-7cf4a89f6477/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/jstl/jstl/1.2/jstl-1.2.jar!/META-INF/c.tld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/inventory/service/InventoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="47" column="42" lean-forward="true" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#876#877#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#1000#1001#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+            <element signature="e#1120#1121#0" expanded="true" />
+            <element signature="e#1167#1168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://5210b1c1-b8ef-4eb1-b9e9-08d5dea2e709/database/film_db/schema/public/table/films">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://5210b1c1-b8ef-4eb1-b9e9-08d5dea2e709/database/inventory_db/schema/public/table/inventory_objects">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5210b1c1-b8ef-4eb1-b9e9-08d5dea2e709/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="51" selection-start-column="51" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/inventory/dao/InventoryDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#0#20#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/inventory/dao/InventoryDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/editPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/inventory/service/InventoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/inventory/model/InventoryObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#800#801#0" expanded="true" />
+            <element signature="e#844#845#0" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filmography.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/inventory/config/AppInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/inventory/config/HibernateConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="50" column="55" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/inventory/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="19" column="73" selection-start-line="19" selection-start-column="73" selection-end-line="19" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/objects.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/res/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/inventory/controller/InventoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Hibernate|filmography</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
